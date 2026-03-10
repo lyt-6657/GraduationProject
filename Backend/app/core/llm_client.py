@@ -3,6 +3,10 @@ import requests
 from dotenv import load_dotenv
 from typing import Optional, Dict
 
+# 默认简介词数范围（供 prompt_builder 使用）
+INTRO_MIN_WORDS = 100
+INTRO_MAX_WORDS = 200
+
 # 加载环境变量
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ENV_PATH = os.path.join(BASE_DIR, "server.env")

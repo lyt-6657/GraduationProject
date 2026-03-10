@@ -14,7 +14,7 @@ app = FastAPI(
 # 配置跨域（允许前端地址的所有请求方法和头）
 app.add_middleware(
     CORSMiddleware,
-    # 开发时可使用["*"]，或按需列出前端地址/端口
+    #前端地址/端口
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
@@ -29,7 +29,7 @@ app.add_middleware(
 # 注册路由
 app.include_router(api_router)
 
-# 自定义422日志输出，便于调试前端请求内容
+# 自定义422日志输出，调试前端请求内容
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
     # 记录请求体和错误详情

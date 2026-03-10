@@ -1,3 +1,6 @@
+from app.core.llm_client import INTRO_MIN_WORDS, INTRO_MAX_WORDS
+
+
 class PromptBuilder:
     """LLM提示词构建器"""
     def build_intro_prompt(self, key_features: list, product_info: dict, market_info: dict) -> str:
@@ -17,7 +20,7 @@ class PromptBuilder:
         # 卖点拼接
         features_text = "\n".join([f"- {f}" for f in key_features])
         
-        # 提示词模板
+        # 提示词模板，简介词数来源于 llm_client 的配置
         prompt = f"""
         请以{language}撰写一篇适合{country}市场的跨境电商产品简介，目标人群是{audience}。
         产品名称：{title}
@@ -25,7 +28,7 @@ class PromptBuilder:
         {features_text}
         
         要求：
-        1. 简介长度100-150词
+        1. 简介长度{INTRO_MIN_WORDS}-{INTRO_MAX_WORDS}词
         2. 突出核心卖点，语言生动有吸引力
         3. 符合{country}市场的消费习惯
         4. 仅返回简介文本，无其他多余内容
