@@ -1,20 +1,38 @@
 import uvicorn
-from fastapi import FastAPI
+from contextlib import asynccontextmanager
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
-from fastapi import Request
 from app.api.endpoints import router as api_router
+from app.core.db_init import init_market_knowledge
+from app.core.database import close_connection
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """应用启动/关闭生命周期"""
+    # 启动时初始化 MongoDB 数据
+    logger.info("正在连接 MongoDB 并初始化市场知识库...")
+    await init_market_knowledge()
+    logger.info("MongoDB 初始化完成")
+    yield
+    # 关闭时释放连接
+    await close_connection()
+
 
 app = FastAPI(
     title="跨境电商产品简介生成API",
-    version="1.0",
+    version="2.0",
+    lifespan=lifespan,
 )
 
-# 配置跨域（允许前端地址的所有请求方法和头）
+# 配置跨域
 app.add_middleware(
     CORSMiddleware,
-    #前端地址/端口
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
@@ -29,11 +47,10 @@ app.add_middleware(
 # 注册路由
 app.include_router(api_router)
 
-# 自定义422日志输出，调试前端请求内容
+
+# 自定义422日志输出
 @app.exception_handler(RequestValidationError)
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
-    # 记录请求体和错误详情
-    import logging
     logging.getLogger("uvicorn.error").error(
         f"请求验证失败 URL={request.url} body={exc.body} errors={exc.errors()}"
     )
@@ -42,9 +59,11 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         content={"detail": exc.errors(), "body": exc.body},
     )
 
+
 @app.get("/health")
 async def health_check():
     return {"status": "healthy", "message": "服务正常运行"}
+
 
 if __name__ == "__main__":
     uvicorn.run(
