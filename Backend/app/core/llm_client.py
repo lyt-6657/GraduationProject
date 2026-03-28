@@ -17,24 +17,35 @@ class LLMClient:
         self.base_url = os.getenv("ARK_API_BASE_URL")
         self.model_endpoint = os.getenv("ARK_MODEL_ENDPOINT")
 
+    def _build_payload(self, prompt: str, temperature: float, max_tokens: int) -> dict:
+        return {
+            "model": self.model_endpoint,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+        }
+
+    def _resolve_max_tokens(self, prompt: str) -> int:
+        """根据提示词长度动态决定 max_tokens，详细版给更多空间"""
+        prompt_len = len(prompt)
+        if prompt_len > 2000:
+            return 4096
+        if prompt_len > 1000:
+            return 2048
+        return 2048
+
     def generate_text(self, prompt: str, temperature: float = 0.7) -> Optional[str]:
         """同步调用火山方舟API生成文本"""
         if not all([self.api_key, self.base_url, self.model_endpoint]):
             logger.error("LLM配置不完整，请检查server.env")
             return None
-
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
-        payload = {
-            "model": self.model_endpoint,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": temperature,
-            "max_tokens": 1024,
-        }
+        payload = self._build_payload(prompt, temperature, self._resolve_max_tokens(prompt))
         try:
-            with httpx.Client(timeout=90.0) as client:
+            with httpx.Client(timeout=120.0) as client:
                 response = client.post(self.base_url, headers=headers, json=payload)
             response.raise_for_status()
             result = response.json()
@@ -53,19 +64,13 @@ class LLMClient:
         if not all([self.api_key, self.base_url, self.model_endpoint]):
             logger.error("LLM配置不完整，请检查server.env")
             return None
-
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
-        payload = {
-            "model": self.model_endpoint,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": temperature,
-            "max_tokens": 1024,
-        }
+        payload = self._build_payload(prompt, temperature, self._resolve_max_tokens(prompt))
         try:
-            async with httpx.AsyncClient(timeout=90.0) as client:
+            async with httpx.AsyncClient(timeout=120.0) as client:
                 response = await client.post(self.base_url, headers=headers, json=payload)
             response.raise_for_status()
             result = response.json()

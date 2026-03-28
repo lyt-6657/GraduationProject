@@ -1,4 +1,4 @@
-from pydantic import BaseModel, field_validator
+from pydantic import BaseModel
 from typing import List, Optional, Dict
 from enum import Enum
 
@@ -11,16 +11,10 @@ class IntroLength(str, Enum):
 
 class ProductInfo(BaseModel):
     """产品信息模型"""
-    title: str
+    title: str = ""
     description: Optional[str] = ""
     parameters: Optional[Dict] = {}
     competitor_features: Optional[List[str]] = []
-
-    @field_validator("title")
-    def title_not_empty(cls, v):
-        if v is not None and not v.strip():
-            raise ValueError("标题不能为空")
-        return v
 
 
 class MarketInfo(BaseModel):
@@ -29,19 +23,12 @@ class MarketInfo(BaseModel):
     audience: Optional[str] = ""
     target_language: Optional[str] = "English"
 
-    @field_validator("country")
-    def country_not_empty(cls, v):
-        if not v.strip():
-            raise ValueError("目标国家不能为空")
-        return v
-
 
 class GenerateIntroRequest(BaseModel):
     """生成简介请求模型"""
     product_info: ProductInfo
     market_info: MarketInfo
     intro_length: Optional[IntroLength] = IntroLength.medium
-    product_url: Optional[str] = ""
 
 
 class GenerateIntroResponse(BaseModel):
@@ -65,18 +52,6 @@ class CountriesResponse(BaseModel):
     countries: List[CountryOption]
 
 
-class FetchProductUrlRequest(BaseModel):
-    """URL抓取请求"""
-    url: str
-
-
-class FetchProductUrlResponse(BaseModel):
-    """URL抓取响应"""
-    success: bool
-    product_info: Optional[ProductInfo] = None
-    error: Optional[str] = ""
-
-
 class ExtractPreferencesRequest(BaseModel):
     """消费者偏好提取请求"""
     dataset_text: str
@@ -98,4 +73,5 @@ class UploadDatasetResponse(BaseModel):
     text_preview: str = ""
     char_count: int = 0
     full_text: str = ""
+    lang: str = "en"
     error: Optional[str] = ""

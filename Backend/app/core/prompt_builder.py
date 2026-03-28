@@ -40,7 +40,7 @@ class PromptBuilder:
         word_max = cfg["max"]
         length_label = cfg["label"]
 
-        features_text = "\n".join([f"- {f}" for f in key_features]) if key_features else "- 暂无卖点"
+        features_text = "\n".join([f"- {f}" for f in key_features[:12]]) if key_features else "- 暂无卖点"
 
         prompt = f"""
 请以{language}撰写一篇适合{country}市场的跨境电商产品简介，目标人群是{audience}。

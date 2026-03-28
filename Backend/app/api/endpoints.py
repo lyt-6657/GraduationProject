@@ -6,8 +6,6 @@ from app.models.schemas import (
     GenerateIntroResponse,
     CountriesResponse,
     CountryOption,
-    FetchProductUrlRequest,
-    FetchProductUrlResponse,
     ExtractPreferencesRequest,
     ExtractPreferencesResponse,
     UploadDatasetResponse,
@@ -17,7 +15,6 @@ from app.core.feature_extractor import FeatureExtractor
 from app.core.prompt_builder import PromptBuilder
 from app.core.llm_client import LLMClient
 from app.core.localization import LocalizationAdapter
-from app.core.product_fetcher import ProductFetcher
 from app.core.preference_extractor import PreferenceExtractor
 from app.core.database import get_market_knowledge_collection
 
@@ -29,7 +26,6 @@ feature_extractor = FeatureExtractor()
 prompt_builder = PromptBuilder()
 llm_client = LLMClient()
 localization_adapter = LocalizationAdapter()
-product_fetcher = ProductFetcher()
 preference_extractor = PreferenceExtractor()
 
 
@@ -56,43 +52,17 @@ async def get_countries():
         raise HTTPException(status_code=500, detail=f"获取国家列表失败: {str(e)}")
 
 
-# 2. 从URL抓取产品信息
-@router.post("/fetch-product-url", response_model=FetchProductUrlResponse)
-async def fetch_product_url(request: FetchProductUrlRequest):
-    """根据输入URL抓取页面并提取产品信息"""
-    if not request.url.strip():
-        raise HTTPException(status_code=400, detail="URL不能为空")
-    result = await product_fetcher.fetch(request.url)
-    if result is None:
-        return FetchProductUrlResponse(success=False, error="抓取失败，请检查URL是否有效或网络是否通畅")
-    product_info = ProductInfo(
-        title=result.get("title", ""),
-        description=result.get("description", ""),
-        parameters=result.get("parameters", {}),
-        competitor_features=result.get("competitor_features", []),
-    )
-    return FetchProductUrlResponse(success=True, product_info=product_info)
-
-
-# 3. 生成产品简介
+# 2. 生成产品简介
 @router.post("/generate-intro", response_model=GenerateIntroResponse)
 async def generate_intro(request: GenerateIntroRequest):
     """
     生成产品简介
-    - 若提供 product_url，则先从URL抓取产品信息，再合并手动输入内容
     - intro_length 可选 short / medium / long
     """
     try:
         product_info = request.product_info
-        if request.product_url and request.product_url.strip():
-            fetched = await product_fetcher.fetch(request.product_url.strip())
-            if fetched:
-                if not product_info.title:
-                    product_info = product_info.model_copy(update={"title": fetched.get("title", "")})
-                if not product_info.description:
-                    product_info = product_info.model_copy(update={"description": fetched.get("description", "")})
-                if not product_info.parameters:
-                    product_info = product_info.model_copy(update={"parameters": fetched.get("parameters", {})})
+        if not product_info.title.strip():
+            return GenerateIntroResponse(success=False, error="产品名称不能为空")
         key_features = feature_extractor.extract_key_features(product_info)
         prompt = prompt_builder.build_intro_prompt(
             key_features=key_features,
@@ -121,7 +91,7 @@ async def generate_intro(request: GenerateIntroRequest):
         raise HTTPException(status_code=500, detail=f"服务器内部错误：{str(e)}")
 
 
-# 4. AI提取消费者偏好并存入数据库
+# 3. AI提取消费者偏好并存入数据库
 @router.post("/extract-preferences", response_model=ExtractPreferencesResponse)
 async def extract_preferences(request: ExtractPreferencesRequest):
     """使用独立AI从数据集文本中自动识别国家并提取消费者偏好，结果存入 MongoDB。"""
@@ -141,7 +111,7 @@ async def extract_preferences(request: ExtractPreferencesRequest):
         )
 
 
-# 5. 上传数据集文件（CSV / TXT / JSON）
+# 4. 上传数据集文件（CSV / TXT / JSON）
 @router.post("/upload-dataset", response_model=UploadDatasetResponse)
 async def upload_dataset(file: UploadFile = File(...)):
     """
@@ -168,6 +138,7 @@ async def upload_dataset(file: UploadFile = File(...)):
             text_preview=text[:200],
             char_count=len(text),
             full_text=text,
+            lang="ru" if sum(1 for c in text[:2000] if '\u0400' <= c <= '\u04FF') / max(len(text[:2000]), 1) > 0.2 else "en",
         )
     except Exception as e:
         logger.error(f"上传数据集失败: {e}")

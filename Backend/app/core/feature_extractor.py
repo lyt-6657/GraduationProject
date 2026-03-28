@@ -44,11 +44,12 @@ class FeatureExtractor:
                 if "续航" in comp_feature and "续航" in desc:
                     key_features.append(f"续航远超竞品（竞品仅{comp_feature}）")
 
-            # 将所有参数直接作为卖点补充
+            # 将参数直接作为卖点补充（最多取前10个，避免提示词过长）
+            param_features = []
             for name, value in params.items():
                 if value and f"{name}" not in desc:
-                    # 避免与已有特征重复，只要参数有内容就转为卖点格式
-                    key_features.append(f"{name}：{value}")
+                    param_features.append(f"{name}：{value}")
+            key_features.extend(param_features[:10])
 
             logger.info(f"成功提取卖点，数量：{len(key_features)}")
             return key_features
