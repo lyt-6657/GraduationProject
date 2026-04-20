@@ -15,6 +15,8 @@ class ProductInfo(BaseModel):
     description: Optional[str] = ""
     parameters: Optional[Dict] = {}
     competitor_features: Optional[List[str]] = []
+    country: Optional[str] = ""
+    audience: Optional[str] = ""
 
 
 class MarketInfo(BaseModel):
@@ -36,6 +38,7 @@ class GenerateIntroResponse(BaseModel):
     success: bool
     key_features: Optional[List[str]] = []
     product_intro: Optional[str] = ""
+    evaluation: Optional[Dict[str, float]] = None
     error: Optional[str] = ""
 
 

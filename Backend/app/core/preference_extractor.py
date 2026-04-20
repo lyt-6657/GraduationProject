@@ -3,6 +3,7 @@ import json
 import re
 import logging
 import httpx
+from datetime import datetime
 from typing import Optional
 from collections import Counter
 from dotenv import load_dotenv
@@ -263,12 +264,39 @@ class PreferenceExtractor:
             if field in preference_data and preference_data[field]:
                 mk_update[field] = preference_data[field]
 
+        # 添加创建时间和更新时间
+        current_time = datetime.now()
+        mk_update["updated_at"] = current_time
+
         if mk_update:
             await mk_collection.update_one(
                 {"country_code": detected_code},
-                {"$set": mk_update},
+                {
+                    "$set": mk_update,
+                    "$setOnInsert": {"created_at": current_time}
+                },
                 upsert=True,
             )
 
         logger.info(f"已将 {detected_code} 消费者偏好写入 market_knowledge")
         return {"success": True, "data": preference_data}
+
+
+def detect_dataset_language_with_ai(dataset_text: str) -> str:
+    """
+    检测数据集的语言
+    :param dataset_text: 数据集文本
+    :return: 语言代码，如 "en"、"ru" 等
+    """
+    # 使用现有的语言检测函数
+    return _detect_lang(dataset_text)
+
+
+def log_local_model_config():
+    """
+    记录本地模型配置信息
+    """
+    global _DEVICE, _DEVICE_NAME
+    logger.info(f"本地模型配置: 设备={_DEVICE_NAME}, 设备ID={_DEVICE}")
+    logger.info(f"英语模型: nlptown/bert-base-multilingual-uncased-sentiment")
+    logger.info(f"俄语模型: seara/rubert-tiny2-russian-sentiment")

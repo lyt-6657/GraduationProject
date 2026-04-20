@@ -1,0 +1,6 @@
+2026-04-14 11:42:50.266281 - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0240, ROUGE-1: 0.4149, ROUGE-2: 0.0215, ROUGE-L: 0.1702
+2026-04-15 12:23:52.208180 - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0385, ROUGE-1: 0.4362, ROUGE-2: 0.0430, ROUGE-L: 0.1596
+2026-04-15 12:28:19.147237 - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0132, ROUGE-1: 0.4255, ROUGE-2: 0.0323, ROUGE-L: 0.2128
+2026-04-15 12:32:40.182155 - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0189, ROUGE-1: 0.4468, ROUGE-2: 0.0645, ROUGE-L: 0.2234
+2026-04-15 12:34:59.433552 - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0150, ROUGE-1: 0.4149, ROUGE-2: 0.0430, ROUGE-L: 0.1915
+2026-04-20 18:50:31.885180 - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0175, ROUGE-1: 0.4787, ROUGE-2: 0.0538, ROUGE-L: 0.1702

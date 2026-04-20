@@ -1,0 +1,790 @@
+2026-04-12 21:03:14,340 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-12 21:03:14,343 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0030s
+2026-04-13 16:56:34,412 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 16:56:34,413 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 16:56:34,418 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0073s
+2026-04-13 16:56:34,432 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0186s
+2026-04-13 21:45:22,949 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 21:45:22,961 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:45:22,966 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0175s
+2026-04-13 21:45:22,967 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0061s
+2026-04-13 21:45:56,773 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:46:35,404 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:46:43,690 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 46.9172s
+2026-04-13 21:46:50,338 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:46:50,346 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0080s
+2026-04-13 21:46:50,354 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:46:50,357 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0029s
+2026-04-13 21:46:50,362 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:47:15,529 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 25.1673s
+2026-04-13 21:47:15,534 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:47:15,536 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-13 21:47:27,804 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 52.3993s
+2026-04-13 21:48:34,356 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 21:48:34,357 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:48:34,357 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0016s
+2026-04-13 21:48:34,359 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0020s
+2026-04-13 21:49:07,320 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:49:07,324 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0041s
+2026-04-13 21:49:07,334 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:49:07,340 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0059s
+2026-04-13 21:49:07,347 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:49:45,660 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 38.3127s
+2026-04-13 21:49:45,665 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:49:45,667 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-13 21:50:42,014 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:50:42,021 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0073s
+2026-04-13 21:50:42,030 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:50:42,033 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0032s
+2026-04-13 21:50:42,042 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:50:42,043 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 0.0010s
+2026-04-13 21:50:42,046 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:50:42,050 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 21:50:47,565 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:50:47,569 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0040s
+2026-04-13 21:50:47,576 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:50:47,582 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0060s
+2026-04-13 21:50:47,588 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:51:36,648 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 49.0608s
+2026-04-13 21:51:36,653 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:51:36,656 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0034s
+2026-04-13 21:53:00,349 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:53:00,353 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0045s
+2026-04-13 21:53:00,359 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:53:00,363 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0045s
+2026-04-13 21:53:00,369 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:53:00,370 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 0.0015s
+2026-04-13 21:53:00,374 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:53:00,378 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0040s
+2026-04-13 21:54:33,389 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:54:33,395 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0057s
+2026-04-13 21:54:33,402 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:54:33,460 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0581s
+2026-04-13 21:54:33,464 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:55:14,856 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 41.3920s
+2026-04-13 21:55:14,860 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:55:14,863 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-13 21:55:19,507 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:55:19,512 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0050s
+2026-04-13 21:55:19,519 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:55:19,524 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0055s
+2026-04-13 21:55:19,533 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:55:19,538 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 0.0047s
+2026-04-13 21:55:19,545 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:55:19,548 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-13 21:57:39,493 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 21:57:39,494 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:57:39,497 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0042s
+2026-04-13 21:57:39,499 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0046s
+2026-04-13 21:58:00,319 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:58:00,323 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0050s
+2026-04-13 21:58:00,330 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:58:00,335 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0043s
+2026-04-13 21:58:00,343 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:58:29,008 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 28.6656s
+2026-04-13 21:58:29,015 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:58:29,018 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0033s
+2026-04-13 21:58:57,184 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:58:57,187 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0030s
+2026-04-13 21:58:57,193 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:58:57,197 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0042s
+2026-04-13 21:58:57,206 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:58:57,208 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 0.0022s
+2026-04-13 21:58:57,215 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:58:57,219 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0041s
+2026-04-13 21:59:01,593 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:59:01,596 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0033s
+2026-04-13 21:59:01,605 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:59:01,608 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-13 21:59:01,613 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:59:01,619 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 0.0058s
+2026-04-13 21:59:06,073 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 21:59:06,075 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0021s
+2026-04-13 21:59:06,081 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:59:06,085 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 21:59:06,091 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 21:59:06,091 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 0.0015s
+2026-04-13 21:59:06,095 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 21:59:06,099 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0040s
+2026-04-13 22:00:09,619 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 22:00:09,623 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0045s
+2026-04-13 22:00:09,630 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:00:09,633 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 22:00:09,640 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 22:00:09,642 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 0.0015s
+2026-04-13 22:00:09,646 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:00:09,649 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 22:12:07,830 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:12:07,833 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:12:07,837 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0071s
+2026-04-13 22:12:07,839 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0060s
+2026-04-13 22:16:29,826 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:16:29,828 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:16:29,831 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0047s
+2026-04-13 22:16:29,832 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0036s
+2026-04-13 22:19:52,380 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:19:52,381 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:19:52,384 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0042s
+2026-04-13 22:19:52,386 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0047s
+2026-04-13 22:20:53,400 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:20:53,400 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:20:53,403 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0025s
+2026-04-13 22:20:53,403 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0031s
+2026-04-13 22:23:54,775 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:23:54,777 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:23:54,780 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0046s
+2026-04-13 22:23:54,782 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0046s
+2026-04-13 22:24:43,029 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:24:43,030 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:24:43,032 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0035s
+2026-04-13 22:24:43,034 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0042s
+2026-04-13 22:24:55,451 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:24:55,452 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:24:55,453 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0031s
+2026-04-13 22:24:55,455 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 22:25:02,621 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:25:02,624 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0031s
+2026-04-13 22:25:02,626 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:25:02,629 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0027s
+2026-04-13 22:25:07,521 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:25:07,522 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:25:07,524 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0035s
+2026-04-13 22:25:07,577 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0548s
+2026-04-13 22:25:32,765 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:25:32,768 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-13 22:26:28,829 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:26:28,830 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:26:28,833 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0037s
+2026-04-13 22:26:28,834 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0042s
+2026-04-13 22:28:23,834 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:28:23,836 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:28:23,840 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0055s
+2026-04-13 22:28:23,841 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0045s
+2026-04-13 22:28:54,000 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:28:54,003 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0028s
+2026-04-13 22:29:19,286 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:29:19,289 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-13 22:31:20,930 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:31:20,931 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:31:20,934 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0037s
+2026-04-13 22:31:20,935 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0032s
+2026-04-13 22:32:34,866 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:32:34,867 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:32:34,868 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0020s
+2026-04-13 22:32:34,870 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-13 22:33:25,803 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:33:25,804 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:33:25,809 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0055s
+2026-04-13 22:33:25,810 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0055s
+2026-04-13 22:43:07,758 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:43:07,759 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:43:07,763 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0051s
+2026-04-13 22:43:07,765 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0061s
+2026-04-13 22:47:31,053 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:47:31,056 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:47:31,059 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0062s
+2026-04-13 22:47:31,062 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0054s
+2026-04-13 22:47:31,064 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:47:31,065 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:47:31,067 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0030s
+2026-04-13 22:47:31,069 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 22:51:11,237 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:51:11,239 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:51:11,242 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0051s
+2026-04-13 22:51:11,244 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0045s
+2026-04-13 22:51:12,514 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:51:12,516 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:51:12,518 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0035s
+2026-04-13 22:51:12,521 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0046s
+2026-04-13 22:52:49,206 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 22:52:49,211 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0057s
+2026-04-13 22:52:49,218 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:52:49,221 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 22:52:49,228 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 22:53:23,130 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 33.9029s
+2026-04-13 22:53:23,140 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:53:23,143 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-13 22:53:55,570 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 22:53:55,574 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0030s
+2026-04-13 22:53:55,579 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:53:55,582 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0031s
+2026-04-13 22:53:55,590 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 22:54:23,353 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 27.7628s
+2026-04-13 22:54:23,358 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:54:23,360 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-13 22:58:04,915 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:58:04,917 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:58:04,919 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0042s
+2026-04-13 22:58:04,921 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0041s
+2026-04-13 22:58:06,128 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 22:58:06,129 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:58:06,132 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0035s
+2026-04-13 22:58:06,133 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 22:58:25,655 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 22:58:25,663 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0078s
+2026-04-13 22:58:25,669 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:58:25,674 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0050s
+2026-04-13 22:58:25,681 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 22:58:52,651 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 26.9700s
+2026-04-13 22:58:52,656 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:58:52,660 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 22:59:04,826 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 22:59:04,831 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0050s
+2026-04-13 22:59:04,838 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:59:04,843 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0051s
+2026-04-13 22:59:04,851 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 22:59:32,934 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 28.0827s
+2026-04-13 22:59:32,940 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 22:59:32,942 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0020s
+2026-04-13 23:03:31,509 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:03:31,512 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:03:31,513 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0042s
+2026-04-13 23:03:31,516 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 23:04:05,516 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:04:05,523 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0072s
+2026-04-13 23:04:05,530 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:04:05,537 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0065s
+2026-04-13 23:04:05,545 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:04:41,422 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 35.8769s
+2026-04-13 23:04:41,428 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:04:41,431 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0040s
+2026-04-13 23:07:00,712 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:07:00,714 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:07:00,716 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0042s
+2026-04-13 23:07:00,723 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0091s
+2026-04-13 23:08:16,377 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:08:16,378 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:08:16,380 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0037s
+2026-04-13 23:08:16,381 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0032s
+2026-04-13 23:09:56,557 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:09:56,559 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:09:56,563 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0058s
+2026-04-13 23:09:56,565 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0054s
+2026-04-13 23:10:36,747 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:10:36,753 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0059s
+2026-04-13 23:10:36,762 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:10:36,764 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0027s
+2026-04-13 23:10:36,769 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:11:03,148 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 26.3794s
+2026-04-13 23:11:03,155 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:11:03,156 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0017s
+2026-04-13 23:11:11,909 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:11:11,913 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0040s
+2026-04-13 23:11:11,920 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:11:11,924 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0040s
+2026-04-13 23:11:11,931 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:11:35,676 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 23.7442s
+2026-04-13 23:11:35,679 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:11:35,682 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0029s
+2026-04-13 23:14:02,878 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:14:02,887 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0085s
+2026-04-13 23:14:02,895 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:14:02,903 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0086s
+2026-04-13 23:14:02,910 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:14:26,132 - monitoring - INFO - ��Ʒ����������� - ��Ʒ: AOC��ʾ��, ����: CHINA, ����: Chinese, ����: medium, �ο��ı�: False, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:14:26,139 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 23.2287s
+2026-04-13 23:14:26,144 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:14:26,145 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0015s
+2026-04-13 23:17:28,101 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:17:28,104 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:17:28,107 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0055s
+2026-04-13 23:17:28,110 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0060s
+2026-04-13 23:17:40,655 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:17:40,659 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0040s
+2026-04-13 23:17:40,667 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:17:40,671 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0036s
+2026-04-13 23:17:40,681 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:18:14,341 - monitoring - INFO - ��Ʒ����������� - ��Ʒ: ����F87ProV2, ����: CHINA, ����: Chinese, ����: medium, �ο��ı�: False, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:18:14,343 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 33.6623s
+2026-04-13 23:18:14,349 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:18:14,351 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0028s
+2026-04-13 23:18:18,387 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:18:18,390 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0035s
+2026-04-13 23:18:18,398 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:18:18,401 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0041s
+2026-04-13 23:18:18,408 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:18:48,083 - monitoring - INFO - ��Ʒ����������� - ��Ʒ: ����F87ProV2, ����: CHINA, ����: Chinese, ����: medium, �ο��ı�: False, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:18:48,086 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 29.6792s
+2026-04-13 23:18:48,090 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:18:48,093 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0023s
+2026-04-13 23:23:24,349 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:23:24,355 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0065s
+2026-04-13 23:23:24,364 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:23:24,371 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0064s
+2026-04-13 23:23:24,375 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:23:54,087 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: False, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:23:54,089 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 29.7138s
+2026-04-13 23:23:54,093 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:23:54,095 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0020s
+2026-04-13 23:26:05,975 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:26:05,982 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0063s
+2026-04-13 23:26:05,989 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:26:05,994 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0054s
+2026-04-13 23:26:05,999 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:26:39,782 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: False, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:26:39,793 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 33.7936s
+2026-04-13 23:26:39,797 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:26:39,800 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0027s
+2026-04-13 23:26:57,068 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:26:57,070 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:26:57,073 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0045s
+2026-04-13 23:26:57,074 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0040s
+2026-04-13 23:26:57,076 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:26:57,078 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:26:57,078 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0015s
+2026-04-13 23:26:57,081 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-13 23:27:13,242 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:27:13,249 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0070s
+2026-04-13 23:27:13,258 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:27:13,262 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0061s
+2026-04-13 23:27:13,269 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:27:46,357 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: False, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:27:46,360 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 33.0916s
+2026-04-13 23:27:46,366 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:27:46,369 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0023s
+2026-04-13 23:29:33,019 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:29:33,025 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0055s
+2026-04-13 23:29:33,031 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:29:33,036 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0052s
+2026-04-13 23:29:33,044 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:30:02,596 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: False, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:30:02,598 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 29.5536s
+2026-04-13 23:30:02,604 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:30:02,606 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-13 23:31:47,393 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:31:47,400 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0072s
+2026-04-13 23:31:47,410 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:31:47,415 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0051s
+2026-04-13 23:31:47,420 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:32:17,472 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: True, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:32:17,475 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 30.0547s
+2026-04-13 23:32:17,481 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:32:17,483 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0020s
+2026-04-13 23:36:11,495 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:36:11,500 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0047s
+2026-04-13 23:36:11,506 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:36:11,515 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0089s
+2026-04-13 23:36:11,519 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:36:38,190 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: True, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:36:38,193 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 26.6739s
+2026-04-13 23:36:38,198 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:36:38,200 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-13 23:38:06,425 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:38:06,431 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0057s
+2026-04-13 23:38:06,438 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:38:06,443 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0054s
+2026-04-13 23:38:06,450 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:38:32,371 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: True, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:38:32,373 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 25.9231s
+2026-04-13 23:38:32,377 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:38:32,381 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0032s
+2026-04-13 23:40:26,317 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:40:26,319 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0021s
+2026-04-13 23:40:26,324 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:40:26,328 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0040s
+2026-04-13 23:40:26,333 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:41:06,903 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: True, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:41:06,906 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 40.5722s
+2026-04-13 23:41:06,910 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:41:06,913 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0034s
+2026-04-13 23:42:29,906 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:42:29,913 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0069s
+2026-04-13 23:42:29,922 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:42:29,927 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0050s
+2026-04-13 23:42:29,935 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:42:48,122 - monitoring - INFO - 产品简介评估分数 - 产品: 狼蛛F87ProV2, 国家: CHINA, 语言: Chinese, 长度: medium, 参考文本: True, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:42:48,124 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 18.1891s
+2026-04-13 23:42:48,129 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:42:48,131 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0023s
+2026-04-13 23:43:56,306 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:43:56,314 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0086s
+2026-04-13 23:43:56,322 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:43:56,328 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0062s
+2026-04-13 23:43:56,337 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:44:23,059 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0000, ROUGE-1: 0.0000, ROUGE-2: 0.0000, ROUGE-L: 0.0000
+2026-04-13 23:44:23,062 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 26.7245s
+2026-04-13 23:44:23,065 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:44:23,068 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-13 23:47:58,015 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:47:58,018 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:47:58,021 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0066s
+2026-04-13 23:47:58,024 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0065s
+2026-04-13 23:47:58,027 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:47:58,028 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:47:58,029 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0022s
+2026-04-13 23:47:58,031 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0032s
+2026-04-13 23:48:10,552 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:48:10,558 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0051s
+2026-04-13 23:48:10,564 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:48:10,567 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-13 23:48:10,573 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:48:39,813 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0458, ROUGE-1: 0.5957, ROUGE-2: 0.1828, ROUGE-L: 0.2979
+2026-04-13 23:48:39,814 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 29.2411s
+2026-04-13 23:48:39,821 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:48:39,824 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0028s
+2026-04-13 23:51:02,815 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:51:02,821 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0054s
+2026-04-13 23:51:02,829 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:51:02,834 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0050s
+2026-04-13 23:51:02,839 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:51:26,267 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0488, ROUGE-1: 0.6170, ROUGE-2: 0.1935, ROUGE-L: 0.3298
+2026-04-13 23:51:26,269 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 23.4302s
+2026-04-13 23:51:26,274 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:51:26,277 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0028s
+2026-04-13 23:54:56,342 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:54:56,346 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0047s
+2026-04-13 23:54:56,352 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:54:56,361 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0087s
+2026-04-13 23:54:56,368 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:55:25,297 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0413, ROUGE-1: 0.6596, ROUGE-2: 0.2473, ROUGE-L: 0.3830
+2026-04-13 23:55:25,299 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 28.9307s
+2026-04-13 23:55:25,305 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:55:25,307 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0020s
+2026-04-13 23:58:34,762 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-13 23:58:34,767 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:58:34,770 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0081s
+2026-04-13 23:58:34,772 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0050s
+2026-04-13 23:58:43,672 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-13 23:58:43,682 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0085s
+2026-04-13 23:58:43,689 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:58:43,693 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0036s
+2026-04-13 23:58:43,698 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-13 23:59:21,938 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0464, ROUGE-1: 0.6596, ROUGE-2: 0.1720, ROUGE-L: 0.3404
+2026-04-13 23:59:21,942 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 38.2436s
+2026-04-13 23:59:21,949 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-13 23:59:21,951 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-14 00:01:38,169 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 00:01:38,175 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0060s
+2026-04-14 00:01:38,180 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 00:01:38,186 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0056s
+2026-04-14 00:01:38,192 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 00:02:09,862 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.1057, ROUGE-1: 0.8085, ROUGE-2: 0.5161, ROUGE-L: 0.5957
+2026-04-14 00:02:09,865 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 31.6722s
+2026-04-14 00:02:09,869 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 00:02:09,872 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-14 10:15:40,056 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 10:15:40,067 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:15:40,071 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0150s
+2026-04-14 10:15:40,073 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0060s
+2026-04-14 10:15:49,125 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-14 10:15:55,276 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 6.1509s
+2026-04-14 10:16:01,673 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-14 10:17:30,684 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 89.0109s
+2026-04-14 10:17:30,694 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 10:17:30,696 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0025s
+2026-04-14 10:28:47,157 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 10:28:47,171 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0132s
+2026-04-14 10:28:47,179 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:28:47,183 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0040s
+2026-04-14 10:28:47,189 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 10:29:29,856 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: 美国, Language: English, Length: medium, Reference: True, BLEU: 0.0022, ROUGE-1: 0.0957, ROUGE-2: 0.0108, ROUGE-L: 0.0638
+2026-04-14 10:29:29,860 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 42.6707s
+2026-04-14 10:29:29,864 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:29:29,867 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-14 10:32:32,538 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 10:32:32,542 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0045s
+2026-04-14 10:32:32,551 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:32:32,555 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-14 10:32:32,562 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 10:33:13,882 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: RUSSIA, Language: Russian, Length: medium, Reference: True, BLEU: 0.0045, ROUGE-1: 0.0638, ROUGE-2: 0.0000, ROUGE-L: 0.0426
+2026-04-14 10:33:13,884 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 41.3225s
+2026-04-14 10:33:13,889 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:33:13,891 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0026s
+2026-04-14 10:34:25,204 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 10:34:25,207 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0030s
+2026-04-14 10:34:25,212 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:34:25,215 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-14 10:34:25,221 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 10:34:58,565 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0286, ROUGE-1: 0.3830, ROUGE-2: 0.0215, ROUGE-L: 0.1596
+2026-04-14 10:34:58,568 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 33.3464s
+2026-04-14 10:34:58,572 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:34:58,575 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-14 10:46:54,737 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 10:46:54,738 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:46:54,741 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0042s
+2026-04-14 10:46:54,744 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0066s
+2026-04-14 10:55:39,615 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 10:55:39,624 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0092s
+2026-04-14 10:55:39,632 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:55:39,637 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0053s
+2026-04-14 10:55:39,645 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 10:56:08,713 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0302, ROUGE-1: 0.3404, ROUGE-2: 0.0323, ROUGE-L: 0.1596
+2026-04-14 10:56:08,716 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 29.0719s
+2026-04-14 10:56:08,722 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 10:56:08,725 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-14 11:04:53,709 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:04:53,710 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:04:53,716 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0068s
+2026-04-14 11:04:53,717 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0073s
+2026-04-14 11:05:46,414 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:05:46,414 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:05:46,417 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0030s
+2026-04-14 11:05:46,420 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0059s
+2026-04-14 11:07:06,105 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:07:06,106 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:07:06,109 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0036s
+2026-04-14 11:07:06,110 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0041s
+2026-04-14 11:09:53,816 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:09:53,820 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:09:53,822 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0060s
+2026-04-14 11:09:53,825 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0041s
+2026-04-14 11:09:53,831 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:09:53,834 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:09:53,835 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:09:53,837 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:09:53,840 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0096s
+2026-04-14 11:09:53,843 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0086s
+2026-04-14 11:09:53,845 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0108s
+2026-04-14 11:09:53,846 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0083s
+2026-04-14 11:10:08,631 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:10:08,632 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:10:08,634 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0032s
+2026-04-14 11:10:08,636 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0043s
+2026-04-14 11:10:51,335 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:10:51,336 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:10:51,337 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0024s
+2026-04-14 11:10:51,339 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0039s
+2026-04-14 11:13:52,134 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:13:52,137 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:13:52,139 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0046s
+2026-04-14 11:13:52,142 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0050s
+2026-04-14 11:13:52,153 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:13:52,155 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:13:52,157 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0021s
+2026-04-14 11:13:52,189 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0367s
+2026-04-14 11:27:07,208 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:27:07,209 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:27:07,209 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:27:07,210 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:27:07,215 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0071s
+2026-04-14 11:27:07,216 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0071s
+2026-04-14 11:27:07,218 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0091s
+2026-04-14 11:27:07,219 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0091s
+2026-04-14 11:27:23,677 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:27:23,677 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:27:23,677 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:27:23,677 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:27:23,678 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:27:23,678 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:27:23,684 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0073s
+2026-04-14 11:27:23,685 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0083s
+2026-04-14 11:27:23,687 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0098s
+2026-04-14 11:27:23,688 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0108s
+2026-04-14 11:27:23,688 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0095s
+2026-04-14 11:27:23,708 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0301s
+2026-04-14 11:34:39,378 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:34:39,379 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:34:39,382 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0040s
+2026-04-14 11:34:39,384 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0055s
+2026-04-14 11:34:40,103 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 11:34:40,105 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:34:40,106 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0028s
+2026-04-14 11:34:40,108 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0034s
+2026-04-14 11:34:54,299 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 11:34:54,304 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0050s
+2026-04-14 11:34:54,310 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:34:54,315 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0046s
+2026-04-14 11:34:54,322 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 11:35:23,504 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0371, ROUGE-1: 0.5851, ROUGE-2: 0.1613, ROUGE-L: 0.3404
+2026-04-14 11:35:23,507 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 29.1846s
+2026-04-14 11:35:23,511 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:35:23,515 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0036s
+2026-04-14 11:36:12,796 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 11:36:12,799 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0030s
+2026-04-14 11:36:12,806 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:36:12,810 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0047s
+2026-04-14 11:36:12,818 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 11:36:47,429 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0611, ROUGE-1: 0.6277, ROUGE-2: 0.2366, ROUGE-L: 0.2660
+2026-04-14 11:36:47,432 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 34.6140s
+2026-04-14 11:36:47,437 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:36:47,440 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-14 11:37:26,296 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 11:37:26,302 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0061s
+2026-04-14 11:37:26,308 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:37:26,313 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0050s
+2026-04-14 11:37:26,321 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 11:37:54,695 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0544, ROUGE-1: 0.5319, ROUGE-2: 0.1935, ROUGE-L: 0.2234
+2026-04-14 11:37:54,697 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 28.3757s
+2026-04-14 11:37:54,702 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:37:54,704 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-14 11:39:10,853 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 11:39:10,859 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0053s
+2026-04-14 11:39:10,863 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:39:10,867 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-14 11:39:10,871 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 11:39:50,732 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0437, ROUGE-1: 0.6170, ROUGE-2: 0.2151, ROUGE-L: 0.3085
+2026-04-14 11:39:50,735 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 39.8641s
+2026-04-14 11:39:53,159 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:39:53,162 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0024s
+2026-04-14 11:41:11,383 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 11:41:11,389 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0064s
+2026-04-14 11:41:11,396 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:41:11,400 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0039s
+2026-04-14 11:41:11,407 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 11:41:44,711 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0437, ROUGE-1: 0.5851, ROUGE-2: 0.1935, ROUGE-L: 0.3511
+2026-04-14 11:41:44,713 - monitoring - INFO - Product evaluation saved to 狼蛛F87ProV2_evaluation.log - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0437, ROUGE-1: 0.5851, ROUGE-2: 0.1935, ROUGE-L: 0.3511
+2026-04-14 11:41:44,715 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 33.3083s
+2026-04-14 11:41:44,720 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:41:44,723 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-14 11:42:23,106 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-14 11:42:23,110 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0045s
+2026-04-14 11:42:23,117 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:42:23,122 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0045s
+2026-04-14 11:42:23,130 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-14 11:42:50,264 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0240, ROUGE-1: 0.4149, ROUGE-2: 0.0215, ROUGE-L: 0.1702
+2026-04-14 11:42:50,266 - monitoring - INFO - Product evaluation saved to AOC显示器_evaluation.log - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0240, ROUGE-1: 0.4149, ROUGE-2: 0.0215, ROUGE-L: 0.1702
+2026-04-14 11:42:50,268 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 27.1376s
+2026-04-14 11:42:50,274 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 11:42:50,285 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0109s
+2026-04-14 16:59:22,788 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-14 16:59:22,799 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-14 16:59:22,805 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0173s
+2026-04-14 16:59:22,819 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0200s
+2026-04-15 12:22:41,325 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-15 12:22:41,329 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:22:41,338 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0136s
+2026-04-15 12:22:41,369 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0400s
+2026-04-15 12:23:14,126 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-15 12:23:14,136 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0097s
+2026-04-15 12:23:14,145 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:23:14,149 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0047s
+2026-04-15 12:23:14,157 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-15 12:23:52,207 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0385, ROUGE-1: 0.4362, ROUGE-2: 0.0430, ROUGE-L: 0.1596
+2026-04-15 12:23:52,208 - monitoring - INFO - Product evaluation saved to AOC显示器_evaluation.log - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0385, ROUGE-1: 0.4362, ROUGE-2: 0.0430, ROUGE-L: 0.1596
+2026-04-15 12:23:52,227 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 38.0703s
+2026-04-15 12:23:52,234 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:23:52,238 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0037s
+2026-04-15 12:25:59,779 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-15 12:25:59,783 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0032s
+2026-04-15 12:25:59,790 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:25:59,793 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-15 12:25:59,801 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-15 12:26:28,811 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0450, ROUGE-1: 0.5532, ROUGE-2: 0.1613, ROUGE-L: 0.2766
+2026-04-15 12:26:28,811 - monitoring - INFO - Product evaluation saved to 狼蛛F87ProV2_evaluation.log - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0450, ROUGE-1: 0.5532, ROUGE-2: 0.1613, ROUGE-L: 0.2766
+2026-04-15 12:26:28,815 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 29.0145s
+2026-04-15 12:26:28,820 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:26:28,823 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0027s
+2026-04-15 12:27:26,050 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:27:26,051 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-15 12:27:26,054 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0035s
+2026-04-15 12:27:26,055 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0055s
+2026-04-15 12:27:48,397 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-15 12:27:48,400 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0035s
+2026-04-15 12:27:48,410 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:27:48,413 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-15 12:27:48,421 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-15 12:28:19,147 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0132, ROUGE-1: 0.4255, ROUGE-2: 0.0323, ROUGE-L: 0.2128
+2026-04-15 12:28:19,147 - monitoring - INFO - Product evaluation saved to AOC显示器_evaluation.log - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0132, ROUGE-1: 0.4255, ROUGE-2: 0.0323, ROUGE-L: 0.2128
+2026-04-15 12:28:19,150 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 30.7292s
+2026-04-15 12:28:19,156 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:28:19,158 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0020s
+2026-04-15 12:30:34,330 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-15 12:30:34,332 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:30:34,336 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0056s
+2026-04-15 12:30:34,339 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0066s
+2026-04-15 12:30:34,354 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-15 12:30:34,355 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:30:34,357 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0035s
+2026-04-15 12:30:34,358 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-15 12:31:54,562 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-15 12:31:54,567 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:31:54,569 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0070s
+2026-04-15 12:31:54,571 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0045s
+2026-04-15 12:32:16,119 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-15 12:32:16,124 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0045s
+2026-04-15 12:32:16,129 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:32:16,132 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-15 12:32:16,138 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-15 12:32:40,179 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0189, ROUGE-1: 0.4468, ROUGE-2: 0.0645, ROUGE-L: 0.2234
+2026-04-15 12:32:40,190 - monitoring - INFO - Product evaluation saved to AOC显示器_evaluation.log - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0189, ROUGE-1: 0.4468, ROUGE-2: 0.0645, ROUGE-L: 0.2234
+2026-04-15 12:32:40,193 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 24.0554s
+2026-04-15 12:32:40,198 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:32:40,201 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-15 12:34:23,840 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-15 12:34:23,844 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:34:23,849 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0087s
+2026-04-15 12:34:23,851 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0067s
+2026-04-15 12:34:29,126 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-15 12:34:29,131 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0050s
+2026-04-15 12:34:29,136 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:34:29,139 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-15 12:34:29,145 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-15 12:34:59,430 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0150, ROUGE-1: 0.4149, ROUGE-2: 0.0430, ROUGE-L: 0.1915
+2026-04-15 12:34:59,433 - monitoring - INFO - Product evaluation saved to AOC显示器_evaluation.log - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0150, ROUGE-1: 0.4149, ROUGE-2: 0.0430, ROUGE-L: 0.1915
+2026-04-15 12:34:59,451 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 30.3069s
+2026-04-15 12:34:59,457 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:34:59,459 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-15 12:35:25,835 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-15 12:35:25,839 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0045s
+2026-04-15 12:35:25,845 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:35:25,852 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0073s
+2026-04-15 12:35:25,859 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-15 12:35:53,793 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0361, ROUGE-1: 0.5319, ROUGE-2: 0.1505, ROUGE-L: 0.3085
+2026-04-15 12:35:53,795 - monitoring - INFO - Product evaluation saved to 狼蛛F87ProV2_evaluation.log - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0361, ROUGE-1: 0.5319, ROUGE-2: 0.1505, ROUGE-L: 0.3085
+2026-04-15 12:35:53,799 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 27.9397s
+2026-04-15 12:35:53,804 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-15 12:35:53,806 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-17 16:42:25,390 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-17 16:42:25,392 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-17 16:42:25,400 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0084s
+2026-04-17 16:42:25,412 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0232s
+2026-04-20 18:49:17,111 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-20 18:49:17,121 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 18:49:17,128 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0070s
+2026-04-20 18:49:17,135 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0238s
+2026-04-20 18:49:51,650 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-20 18:49:51,657 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0072s
+2026-04-20 18:49:51,664 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-20 18:49:51,667 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-20 18:49:51,671 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-20 18:50:31,884 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0175, ROUGE-1: 0.4787, ROUGE-2: 0.0538, ROUGE-L: 0.1702
+2026-04-20 18:50:31,893 - monitoring - INFO - Product evaluation saved to AOC显示器_evaluation.log - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0175, ROUGE-1: 0.4787, ROUGE-2: 0.0538, ROUGE-L: 0.1702
+2026-04-20 18:50:31,903 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 40.2326s
+2026-04-20 18:50:31,909 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-20 18:50:31,912 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-20 19:04:14,916 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:04:14,926 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-20 19:04:14,930 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0145s
+2026-04-20 19:04:14,932 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0054s
+2026-04-20 19:04:34,955 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-20 19:04:35,021 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0668s
+2026-04-20 19:04:40,690 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-20 19:04:40,700 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0099s
+2026-04-20 19:06:30,911 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-20 19:06:30,955 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0443s
+2026-04-20 19:06:38,005 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-20 19:07:38,677 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 60.6723s
+2026-04-20 19:07:38,683 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:07:38,687 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0037s
+2026-04-20 19:08:31,954 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-20 19:08:31,959 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 0.0048s
+2026-04-20 19:08:31,966 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:08:31,969 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0025s
+2026-04-20 19:08:33,092 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-20 19:08:33,098 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 0.0057s
+2026-04-20 19:08:33,107 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:08:33,110 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0027s
+2026-04-20 19:08:33,572 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-20 19:08:33,577 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 0.0045s
+2026-04-20 19:08:33,583 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:08:33,587 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0042s
+2026-04-20 19:08:40,216 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-20 19:08:40,219 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0031s
+2026-04-20 19:08:42,084 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-20 19:09:04,432 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 22.3481s
+2026-04-20 19:09:04,437 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:09:04,439 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0015s
+2026-04-20 19:09:30,735 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-20 19:09:30,747 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0123s
+2026-04-20 19:09:35,546 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-20 19:09:57,105 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 21.5593s
+2026-04-20 19:09:57,110 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:09:57,112 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0020s
+2026-04-20 19:14:21,540 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-20 19:14:55,527 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 33.9869s
+2026-04-20 19:14:55,534 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:14:55,536 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0020s
+2026-04-20 19:15:58,807 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-20 19:16:26,516 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 27.7086s
+2026-04-20 19:16:26,522 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-20 19:16:26,523 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0010s

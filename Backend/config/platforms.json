@@ -1,0 +1,17 @@
+{
+  "amazon": {
+    "max_title_length": 200,
+    "max_description_length": 2000,
+    "allowed_html": false
+  },
+  "ebay": {
+    "max_title_length": 80,
+    "max_description_length": 5000,
+    "allowed_html": true
+  },
+  "aliexpress": {
+    "max_title_length": 128,
+    "max_description_length": 10000,
+    "allowed_html": true
+  }
+}

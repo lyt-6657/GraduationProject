@@ -59,7 +59,7 @@ class LLMClient:
             logger.error(f"LLM API调用异常: {type(e).__name__}: {e}")
             return None
 
-    async def generate_text_async(self, prompt: str, temperature: float = 0.7) -> Optional[str]:
+    async def generate_text_async(self, prompt: str, temperature: float = 0.9) -> Optional[str]:
         """异步调用火山方舟API生成文本"""
         if not all([self.api_key, self.base_url, self.model_endpoint]):
             logger.error("LLM配置不完整，请检查server.env")

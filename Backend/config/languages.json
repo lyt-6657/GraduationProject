@@ -1,0 +1,18 @@
+{
+  "supported_languages": [
+    "zh",
+    "en",
+    "ru",
+    "ja",
+    "ko",
+    "ar"
+  ],
+  "language_names": {
+    "zh": "中文",
+    "en": "English",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ko": "한국어",
+    "ar": "العربية"
+  }
+}
