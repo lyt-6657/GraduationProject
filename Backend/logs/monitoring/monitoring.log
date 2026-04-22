@@ -788,3 +788,138 @@
 2026-04-20 19:16:26,516 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 27.7086s
 2026-04-20 19:16:26,522 - monitoring - INFO - Request started: GET /api/v1/countries
 2026-04-20 19:16:26,523 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0010s
+2026-04-21 16:21:29,221 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 16:21:29,223 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 16:21:29,226 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0050s
+2026-04-21 16:21:29,228 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0050s
+2026-04-21 16:21:43,382 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-21 16:21:43,418 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0364s
+2026-04-21 16:21:47,985 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 16:22:55,390 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 67.4050s
+2026-04-21 16:22:55,397 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 16:22:55,399 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0020s
+2026-04-21 16:31:04,530 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 16:31:04,532 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 16:31:04,534 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0040s
+2026-04-21 16:31:04,536 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0040s
+2026-04-21 16:31:08,714 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-21 16:31:08,777 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0635s
+2026-04-21 16:31:22,048 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 16:32:09,870 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 47.8226s
+2026-04-21 16:32:09,877 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 16:32:09,879 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0020s
+2026-04-21 16:40:10,283 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 16:40:59,435 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 49.1524s
+2026-04-21 16:40:59,442 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 16:40:59,446 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0031s
+2026-04-21 16:49:00,528 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-21 16:49:00,566 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0379s
+2026-04-21 16:49:12,483 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 16:50:26,114 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 73.6306s
+2026-04-21 16:50:26,123 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 16:50:26,126 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0033s
+2026-04-21 17:22:44,186 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:23:25,987 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 41.8014s
+2026-04-21 17:23:25,995 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:23:26,000 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0050s
+2026-04-21 17:26:25,913 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:26:25,915 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 17:26:25,917 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0040s
+2026-04-21 17:26:25,918 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0032s
+2026-04-21 17:26:56,261 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-21 17:26:56,310 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0489s
+2026-04-21 17:27:02,113 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:28:10,709 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 500 - Time: 68.5956s
+2026-04-21 17:28:19,866 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:29:23,747 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 500 - Time: 63.8812s
+2026-04-21 17:29:32,969 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:30:10,411 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 37.4426s
+2026-04-21 17:30:14,026 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:30:14,028 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0021s
+2026-04-21 17:34:35,809 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:35:16,397 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 40.5888s
+2026-04-21 17:35:16,403 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:35:16,407 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0040s
+2026-04-21 17:35:37,345 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:35:37,347 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 0.0022s
+2026-04-21 17:35:37,353 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:35:37,357 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0035s
+2026-04-21 17:35:38,310 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:35:38,312 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 0.0026s
+2026-04-21 17:35:38,319 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:35:38,322 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0035s
+2026-04-21 17:35:43,981 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:36:28,471 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 44.4893s
+2026-04-21 17:36:28,483 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:36:28,485 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0014s
+2026-04-21 17:37:04,023 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:37:04,025 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 17:37:04,027 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0044s
+2026-04-21 17:37:04,028 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0035s
+2026-04-21 17:37:07,217 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-21 17:37:07,275 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0580s
+2026-04-21 17:37:12,792 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:39:05,159 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:39:05,161 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 17:39:05,165 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0065s
+2026-04-21 17:39:05,167 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0065s
+2026-04-21 17:39:09,550 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-21 17:39:09,588 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0374s
+2026-04-21 17:39:14,990 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:40:13,702 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 58.7132s
+2026-04-21 17:40:13,709 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:40:13,710 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0005s
+2026-04-21 17:46:34,522 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:46:34,523 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 17:46:34,524 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0025s
+2026-04-21 17:46:34,527 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0037s
+2026-04-21 17:46:37,958 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-21 17:46:38,004 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0452s
+2026-04-21 17:46:42,930 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 17:47:32,319 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 49.3885s
+2026-04-21 17:47:32,325 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:47:32,326 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0010s
+2026-04-21 17:58:18,921 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 17:58:18,922 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 17:58:18,929 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0085s
+2026-04-21 17:58:18,933 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0103s
+2026-04-21 17:58:45,110 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-21 17:58:45,115 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0050s
+2026-04-21 17:58:45,123 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 17:58:45,126 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0038s
+2026-04-21 17:58:45,134 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-21 17:59:13,849 - monitoring - INFO - Product intro evaluation score - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0385, ROUGE-1: 0.5745, ROUGE-2: 0.1505, ROUGE-L: 0.2128
+2026-04-21 17:59:13,859 - monitoring - INFO - Product evaluation saved to 狼蛛F87ProV2_evaluation.log - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0385, ROUGE-1: 0.5745, ROUGE-2: 0.1505, ROUGE-L: 0.2128
+2026-04-21 17:59:13,864 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 28.7294s
+2026-04-21 17:59:13,869 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 17:59:13,872 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0025s
+2026-04-21 17:59:51,763 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-21 17:59:51,811 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0477s
+2026-04-21 17:59:56,731 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-21 18:01:10,432 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 73.7010s
+2026-04-21 18:01:10,438 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 18:01:10,440 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0015s
+2026-04-21 20:52:21,040 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-21 20:52:21,042 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 20:52:21,044 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0040s
+2026-04-21 20:52:21,047 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0050s
+2026-04-21 20:52:48,375 - monitoring - INFO - Request started: POST /api/v1/save-product
+2026-04-21 20:52:48,379 - monitoring - INFO - Request completed: POST /api/v1/save-product - Status: 200 - Time: 0.0040s
+2026-04-21 20:52:48,385 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 20:52:48,388 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0030s
+2026-04-21 20:52:48,395 - monitoring - INFO - Request started: POST /api/v1/generate-intro
+2026-04-21 20:53:32,730 - monitoring - INFO - Product intro evaluation score - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.1089, ROUGE-1: 0.4957, ROUGE-2: 0.1897, ROUGE-L: 0.2264
+2026-04-21 20:53:32,732 - monitoring - INFO - Product evaluation saved to AOC显示器_evaluation.log - Product: AOC显示器, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.1089, ROUGE-1: 0.4957, ROUGE-2: 0.1897, ROUGE-L: 0.2264
+2026-04-21 20:53:32,736 - monitoring - INFO - Request completed: POST /api/v1/generate-intro - Status: 200 - Time: 44.3404s
+2026-04-21 20:53:32,743 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-21 20:53:32,745 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0020s
+2026-04-22 13:47:50,195 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-22 13:47:50,197 - monitoring - INFO - Request started: GET /api/v1/products
+2026-04-22 13:47:50,205 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0100s
+2026-04-22 13:47:50,228 - monitoring - INFO - Request completed: GET /api/v1/products - Status: 200 - Time: 0.0309s
+2026-04-22 13:47:58,177 - monitoring - INFO - Request started: POST /api/v1/upload-dataset
+2026-04-22 13:47:58,228 - monitoring - INFO - Request completed: POST /api/v1/upload-dataset - Status: 200 - Time: 0.0510s
+2026-04-22 13:48:02,964 - monitoring - INFO - Request started: POST /api/v1/extract-preferences
+2026-04-22 13:48:55,430 - monitoring - INFO - Request completed: POST /api/v1/extract-preferences - Status: 200 - Time: 52.4667s
+2026-04-22 13:48:55,437 - monitoring - INFO - Request started: GET /api/v1/countries
+2026-04-22 13:48:55,439 - monitoring - INFO - Request completed: GET /api/v1/countries - Status: 200 - Time: 0.0020s

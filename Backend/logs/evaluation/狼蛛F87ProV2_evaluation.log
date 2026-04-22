@@ -1,3 +1,4 @@
 2026-04-14 11:41:44.713006 - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0437, ROUGE-1: 0.5851, ROUGE-2: 0.1935, ROUGE-L: 0.3511
 2026-04-15 12:26:28.811892 - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0450, ROUGE-1: 0.5532, ROUGE-2: 0.1613, ROUGE-L: 0.2766
 2026-04-15 12:35:53.795348 - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0361, ROUGE-1: 0.5319, ROUGE-2: 0.1505, ROUGE-L: 0.3085
+2026-04-21 17:59:13.859198 - Product: 狼蛛F87ProV2, Country: CHINA, Language: Chinese, Length: medium, Reference: True, BLEU: 0.0385, ROUGE-1: 0.5745, ROUGE-2: 0.1505, ROUGE-L: 0.2128

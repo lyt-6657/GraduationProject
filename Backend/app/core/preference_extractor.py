@@ -35,13 +35,15 @@ def _get_english_model():
         warnings.filterwarnings("ignore")
         from transformers import pipeline
         logger.info(f"加载英语模型，设备：{_DEVICE_NAME}")
+        # 使用本地模型路径
+        model_path = os.path.join(BASE_DIR, "..", "GraduationProjectModel", "model", "bert-base-multilingual-uncased-sentiment")
         _english_model = pipeline(
             "text-classification",
-            model="nlptown/bert-base-multilingual-uncased-sentiment",
+            model=model_path,
             truncation=True,
             max_length=512,
             device=_DEVICE,
-            batch_size=32,
+            batch_size=32
         )
     return _english_model
 
@@ -53,13 +55,15 @@ def _get_russian_model():
         warnings.filterwarnings("ignore")
         from transformers import pipeline
         logger.info(f"加载俄语模型，设备：{_DEVICE_NAME}")
+        # 使用本地模型路径
+        model_path = os.path.join(BASE_DIR, "..", "GraduationProjectModel", "model", "rubert-tiny2-russian-sentiment")
         _russian_model = pipeline(
             "text-classification",
-            model="seara/rubert-tiny2-russian-sentiment",
+            model=model_path,
             truncation=True,
             max_length=512,
             device=_DEVICE,
-            batch_size=32,
+            batch_size=32
         )
     return _russian_model
 
@@ -90,7 +94,7 @@ def _detect_lang(text: str) -> str:
     return "ru" if cyrillic / max(len(text), 1) > 0.2 else "en"
 
 
-def _analyze_reviews_local(dataset_text: str) -> dict:
+def _analyze_reviews_local(dataset_text: str, lang: str) -> dict:
     """
     用本地 BERT 模型批量分析评论，统计高频偏好和禁忌。
     - 关键词匹配在全文上直接统计，无需逐行调用模型
@@ -99,12 +103,18 @@ def _analyze_reviews_local(dataset_text: str) -> dict:
     """
     lines = [l.strip() for l in dataset_text.splitlines() if l.strip()]
     if not lines:
-        return {"lang": "en", "top_preferences": [], "top_taboos": [], "positive_ratio": 0}
+        return {"lang": lang, "top_preferences": [], "top_taboos": [], "positive_ratio": 0}
 
-    lang = _detect_lang(dataset_text)
-    model = _get_russian_model() if lang == "ru" else _get_english_model()
-    pref_kw = PREFERENCE_RU if lang == "ru" else PREFERENCE_EN
-    taboo_kw = TABOO_RU if lang == "ru" else TABOO_EN
+    # 根据传入的语言选择模型和关键词
+    if lang == "ru":
+        model = _get_russian_model()
+        pref_kw = PREFERENCE_RU
+        taboo_kw = TABOO_RU
+    else:
+        # 默认为英语模型，适用于其他语言
+        model = _get_english_model()
+        pref_kw = PREFERENCE_EN
+        taboo_kw = TABOO_EN
 
     # 关键词匹配直接在全文统计（不需要模型，速度极快）
     full_text_lower = dataset_text.lower()
@@ -185,10 +195,14 @@ class PreferenceExtractor:
         :param dataset_text: 原始数据集内容
         :param country_code: 可选，手动指定国家代码；为 None 时由 AI 自动识别
         """
+        # 直接使用 AI 模型检测语言（异步调用）
+        logger.info("开始检测数据集语言...")
+        lang = await _detect_language_async(dataset_text)
+        logger.info(f"语言检测完成：lang={lang}")
+        
         # ── 阶段一：本地 BERT 模型批量分析 ──
         logger.info("阶段一：启动本地 BERT 模型分析...")
-        local_result = _analyze_reviews_local(dataset_text)
-        lang = local_result["lang"]
+        local_result = _analyze_reviews_local(dataset_text, lang)
         top_prefs = local_result["top_preferences"]
         top_taboos = local_result["top_taboos"]
         positive_ratio = local_result["positive_ratio"]
@@ -200,13 +214,30 @@ class PreferenceExtractor:
         else:
             country_hint = "请根据评论语言、内容、品牌、地名等线索判断目标市场国家，若无法判断则将 country_code 设为 null。"
 
+        # 语言代码到语言名称的映射
+        lang_name_map = {
+            "en": "英语",
+            "ru": "俄语",
+            "zh": "中文",
+            "ja": "日语",
+            "de": "德语",
+            "fr": "法语",
+            "pt": "葡萄牙语",
+            "es": "西班牙语",
+            "ko": "韩语",
+            "ar": "阿拉伯语"
+        }
+        
+        # 获取语言名称
+        lang_name = lang_name_map.get(lang, lang)
+        
         prompt = f"""你是跨境电商消费者行为分析专家。
-以下是由本地AI模型（{'俄语' if lang == 'ru' else '英语'}评论分析）提取的消费者偏好数据，请将其翻译为中文并整合为知识库格式。
+以下是由本地AI模型（{lang_name}评论分析）提取的消费者偏好数据，请将其翻译为中文并整合为知识库格式。
 
 {country_hint}
 
 本地模型分析结果：
-- 评论语言：{'俄语' if lang == 'ru' else '英语'}
+
 - 正面评价占比：{positive_ratio * 100:.0f}%
 - 高频偏好关键词（原文）：{', '.join(top_prefs) if top_prefs else '无'}
 - 高频禁忌关键词（原文）：{', '.join(top_taboos) if top_taboos else '无'}
@@ -256,6 +287,24 @@ class PreferenceExtractor:
         detected_code = detected_code.upper()
         preference_data["country_code"] = detected_code
 
+        # 语言代码到英文语言名称的映射
+        lang_code_to_english = {
+            "en": "English",
+            "ru": "Russian",
+            "zh": "Chinese",
+            "ja": "Japanese",
+            "de": "German",
+            "fr": "French",
+            "pt": "Portuguese",
+            "es": "Spanish",
+            "ko": "Korean",
+            "ar": "Arabic"
+        }
+        
+        # 如果 AI 没有返回 target_language，或者返回的不是有效的语言名称，则使用检测到的语言
+        if not preference_data.get("target_language") or preference_data["target_language"].strip() == "目标语言":
+            preference_data["target_language"] = lang_code_to_english.get(lang, lang.capitalize())
+
         # 保存到 market_knowledge（upsert by country_code）
         mk_collection = get_market_knowledge_collection()
         mk_update = {}
@@ -282,14 +331,69 @@ class PreferenceExtractor:
         return {"success": True, "data": preference_data}
 
 
+async def _detect_language_async(dataset_text: str) -> str:
+    """
+    异步检测数据集的语言
+    :param dataset_text: 数据集文本
+    :return: 语言代码，如 "en"、"ru" 等
+    """
+    # 提取数据集前10条数据
+    lines = [l.strip() for l in dataset_text.splitlines() if l.strip()]
+    top_10_lines = lines[:10]
+    sample_text = "\n".join(top_10_lines)
+    
+    # 调用模型分析数据集语种
+    extractor = PreferenceExtractor()
+    
+    # 构建检测语言的提示词
+    prompt = f"""请分析以下数据集的语言，并返回语言代码：
+
+数据集样本（前10条）：
+{sample_text}
+
+要求：
+- 仅返回语言代码，如 "en"（英语）、"ru"（俄语）、"zh"（中文）等
+- 不要返回任何其他文字或解释
+"""
+    
+    try:
+        # 异步调用 AI 模型
+        result = await extractor._call_ai(prompt)
+        if result:
+            # 去除可能的引号，确保返回格式一致
+            return result.strip().strip('"').strip("'").lower()
+    except Exception as e:
+        logger.error(f"调用模型检测语言失败: {e}")
+    
+    # 如果模型调用失败，回退到原有的语言检测方法
+    return _detect_lang(dataset_text)
+
+
 def detect_dataset_language_with_ai(dataset_text: str) -> str:
     """
     检测数据集的语言
     :param dataset_text: 数据集文本
     :return: 语言代码，如 "en"、"ru" 等
     """
-    # 使用现有的语言检测函数
-    return _detect_lang(dataset_text)
+    import asyncio
+    try:
+        # 检查当前是否已经存在事件循环
+        try:
+            loop = asyncio.get_event_loop()
+            if loop.is_running():
+                # 如果事件循环正在运行，使用 create_task 并等待结果
+                result = loop.run_until_complete(_detect_language_async(dataset_text))
+            else:
+                # 如果事件循环不存在或未运行，创建一个新的
+                result = asyncio.run(_detect_language_async(dataset_text))
+        except RuntimeError:
+            # 如果没有事件循环，创建一个新的
+            result = asyncio.run(_detect_language_async(dataset_text))
+        return result
+    except Exception as e:
+        logger.error(f"检测语言失败: {e}")
+        # 如果异步调用失败，回退到原有的语言检测方法
+        return _detect_lang(dataset_text)
 
 
 def log_local_model_config():
